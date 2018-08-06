@@ -218,6 +218,7 @@ class Window(Frame):
     LCColor = "White"
     RCColor = "Red"
 
+    # Change size of grid and number of bombs here
     rows = 10
     cols = 10
     bombs = 10

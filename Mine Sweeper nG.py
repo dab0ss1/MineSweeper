@@ -206,5 +206,10 @@ class Game(object):
         print("Tiles opened: " + str(numb))
         return numb
 
-game = Game(10, 10, 10)
+# Change size of grid and number of bombs here
+rows = 10
+cols = 10
+bombs = 10
+
+game = Game(rows, cols, bombs)
 game.startGame()
